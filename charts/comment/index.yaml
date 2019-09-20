@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  comment:
+  - appVersion: "1"
+    created: 2019-09-20T13:08:27.922694+03:00
+    description: OTUS reddit application COMMENT-service homework
+    digest: 7bd9f916f13853c2a497a4b06cb9c0beb842e4fc9814ae4d9b19d215762f754f
+    maintainers:
+    - email: etselikov@express42.com
+      name: czm41k
+    name: comment
+    urls:
+    - comment-1.0.0.tgz
+    version: 1.0.0
+generated: 2019-09-20T13:08:27.921803+03:00
