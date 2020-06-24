@@ -11,7 +11,7 @@ spec:
   selector:
     matchLabels:
       app: reddit
-      component: comment
+      component: mongodb
       release: {{ .Release.Name }}
   template:
     metadata:
