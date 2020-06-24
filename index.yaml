@@ -3,7 +3,7 @@ entries:
   comment:
   - apiVersion: v1
     appVersion: "1"
-    created: "2020-06-24T19:07:00.767954+03:00"
+    created: "2020-06-24T19:31:15.739697+03:00"
     description: OTUS reddit application COMMENT homework
     digest: cc222636465115aefb0d5d4e8dbea3b9d7c2e08c1bf41b9cd19f1e318f6ad377
     home: https://github.com/czm41k/helm-charts/
@@ -14,10 +14,33 @@ entries:
     urls:
     - comment-1.0.1.tgz
     version: 1.0.1
+  mongodb:
+  - apiVersion: v1
+    appVersion: 3.4.10
+    created: "2020-06-24T19:31:15.740244+03:00"
+    description: NoSQL document-oriented database that stores JSON-like documents
+      with dynamic schemas, simplifying the integration of data in content-driven
+      applications.
+    digest: b76c8cedd6ce3ca37ee290da66d74acb331097c6f6be5fcdb3c72896801142ce
+    home: https://mongodb.org
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.4.18.tgz
+    version: 0.4.18
   post:
   - apiVersion: v1
     appVersion: "1"
-    created: "2020-06-24T19:07:00.768309+03:00"
+    created: "2020-06-24T19:31:15.741295+03:00"
     description: OTUS reddit application POST homework
     digest: 8203eab665d5bbc00bafa9f8f5413dd8d3f0900bc6c527e99073a59c178aed5f
     home: https://github.com/czm41k/helm-charts/
@@ -31,7 +54,7 @@ entries:
   ui:
   - apiVersion: v1
     appVersion: "1"
-    created: "2020-06-24T19:07:00.768641+03:00"
+    created: "2020-06-24T19:31:15.742087+03:00"
     description: OTUS reddit application UI homework
     digest: 4d20038f0432ea40224d8403478bcb6e79b983cb6253988791de3f40549f1bc6
     home: https://github.com/czm41k/helm-charts/
@@ -42,4 +65,4 @@ entries:
     urls:
     - ui-1.0.1.tgz
     version: 1.0.1
-generated: "2020-06-24T19:07:00.765853+03:00"
+generated: "2020-06-24T19:31:15.735228+03:00"
