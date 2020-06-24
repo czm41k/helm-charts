@@ -15,8 +15,11 @@ spec:
       release: {{ .Release.Name }}
   template:
     metadata:
+      name: mongodb
       labels:
-        app: {{ template "mongodb.fullname" . }}
+        app: reddit
+        component: mongodb
+        release: {{ .Release.Name }}
     spec:
       containers:
       - name: {{ template "mongodb.fullname" . }}
